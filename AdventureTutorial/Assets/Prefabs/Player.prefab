@@ -1012,6 +1012,7 @@ GameObject:
   - component: {fileID: 4561175264191838}
   - component: {fileID: 95032280912506226}
   - component: {fileID: 195853681623548906}
+  - component: {fileID: 114461094045599148}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -2292,6 +2293,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114461094045599148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1867440237020490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d02f9c7789f972439436e69eb76ecbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137597813222957994
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
