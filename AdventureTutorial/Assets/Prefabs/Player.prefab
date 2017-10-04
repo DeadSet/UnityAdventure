@@ -2304,6 +2304,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d02f9c7789f972439436e69eb76ecbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 95032280912506226}
+  agent: {fileID: 195853681623548906}
+  inputHoldDelay: 0.5
+  turnSpeedThreshold: 0.5
+  speedDampTime: 0.1
+  slowingSpeed: 0.175
+  turnSmoothing: 15
 --- !u!137 &137597813222957994
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
